@@ -1,0 +1,5 @@
+# Ignore Tuist-related generated files
+.swiftpm/
+.tuist/
+DerivedData/
+.DS_Store
