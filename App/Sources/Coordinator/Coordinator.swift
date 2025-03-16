@@ -26,7 +26,7 @@ class AppCoordinator: Coordinator {
     }
 }
 
-class FeatureCoordinator: Coordinator {
+/*class FeatureCoordinator: Coordinator {
     var navigationController: UINavigationController
     
     init(navigationController: UINavigationController) {
@@ -37,4 +37,4 @@ class FeatureCoordinator: Coordinator {
         let featureViewController = UIViewController()
         navigationController.pushViewController(featureViewController, animated: true)
     }
-}
+}*/
