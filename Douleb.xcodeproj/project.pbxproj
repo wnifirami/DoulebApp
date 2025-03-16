@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0C7DFA80F1DFE07BD03D2DEC /* FeatureHome.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C02FA9FF9BD4758F59E38C8F /* FeatureHome.framework */; };
+		18D1C1C5859F4BAE55449275 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D71E9E9DDC42E670A5C522 /* Coordinator.swift */; };
 		37DCDDED12F282879342CC85 /* FeatureHome.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C02FA9FF9BD4758F59E38C8F /* FeatureHome.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		3F62F59E5853BF398C31B335 /* FeatureSettings.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8952FA3D70A3BD4E856D5618 /* FeatureSettings.framework */; };
 		49ECC46096E48578A96BB53F /* Networking.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A5924E64C82125FE3963C96D /* Networking.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -17,18 +18,20 @@
 		78539787B56448A021774F7E /* UIComponents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E02A9FEB9B0D591C4581054F /* UIComponents.framework */; };
 		8D4B8DE12D8C176777F54BEF /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF302EA596343986FF9E5C2 /* MainViewController.swift */; };
 		945E96FA06C8A979679E62DD /* Networking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5924E64C82125FE3963C96D /* Networking.framework */; };
+		A827C2BBB2B86750B4F4397E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F10532AB0922927D945CAA0 /* Assets.xcassets */; };
 		AF258E159EB4757288CBCF23 /* UIComponents.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E02A9FEB9B0D591C4581054F /* UIComponents.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		AFFF74705F83C85F1A107FA4 /* FeatureProfile.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B6F4BF773D4715CF72C513B7 /* FeatureProfile.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		B4F51B689D921F133D10A99D /* UIComponents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E02A9FEB9B0D591C4581054F /* UIComponents.framework */; };
 		BA3C716C9B32366C0B5B0408 /* UIComponents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E02A9FEB9B0D591C4581054F /* UIComponents.framework */; };
 		C33CC2B93790A32CFD9D82DF /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B28BC24F117B170853DCEE8 /* Core.framework */; };
 		C7D113CE21D88F30C8AE6B36 /* Core.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1B28BC24F117B170853DCEE8 /* Core.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CB7B04F32395026D03588D5F /* TuistAssets+App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA9DE8C96D7188069DCC2B5 /* TuistAssets+App.swift */; };
 		CC002D82216B9B6F179BFCA2 /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B28BC24F117B170853DCEE8 /* Core.framework */; };
 		CE6A84E64EEECA7E8C11A0AB /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B28BC24F117B170853DCEE8 /* Core.framework */; };
+		CF2C90333E236B3431DB46F9 /* TuistBundle+App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836679F03BBEF5F00C1BE1CF /* TuistBundle+App.swift */; };
 		D52F2FABD4157ABFEABCA874 /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B28BC24F117B170853DCEE8 /* Core.framework */; };
 		E275DB0A36B60DEC22DFC6CD /* FeatureProfile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6F4BF773D4715CF72C513B7 /* FeatureProfile.framework */; };
 		E29465C0350B7B059AC1EB28 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC72439BD109FAA5EC4FD66C /* SceneDelegate.swift */; };
-		EA0A19A02D864A3300CBCEF6 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0A199F2D864A3300CBCEF6 /* Coordinator.swift */; };
 		F228C2E51B5B9413F9B924E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC715AB3653736FA133197A /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
@@ -227,10 +230,14 @@
 		327F3AC729722A31E171AF28 /* App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36C718F7254A7363E2A424B3 /* FeatureProfile-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "FeatureProfile-Info.plist"; sourceTree = "<group>"; };
 		3E6620CAAEAA9CEEF6E9C1D0 /* App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "App-Info.plist"; sourceTree = "<group>"; };
+		5AA9DE8C96D7188069DCC2B5 /* TuistAssets+App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistAssets+App.swift"; sourceTree = "<group>"; };
 		5C258B2026AF0C516CE39B37 /* FeatureHome-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "FeatureHome-Info.plist"; sourceTree = "<group>"; };
 		5DC715AB3653736FA133197A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		60F0DDC9ECB780162F697FC7 /* Core-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Core-Info.plist"; sourceTree = "<group>"; };
+		6F10532AB0922927D945CAA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		836679F03BBEF5F00C1BE1CF /* TuistBundle+App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistBundle+App.swift"; sourceTree = "<group>"; };
 		8952FA3D70A3BD4E856D5618 /* FeatureSettings.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FeatureSettings.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		99D71E9E9DDC42E670A5C522 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		9EF302EA596343986FF9E5C2 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		A5924E64C82125FE3963C96D /* Networking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Networking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7169D804DA352E66FA92DFE /* AppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "AppTests-Info.plist"; sourceTree = "<group>"; };
@@ -240,7 +247,6 @@
 		DC72439BD109FAA5EC4FD66C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		E02A9FEB9B0D591C4581054F /* UIComponents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIComponents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0D0C079A66D5AB72070C065 /* Networking-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Networking-Info.plist"; sourceTree = "<group>"; };
-		EA0A199F2D864A3300CBCEF6 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		EE879FF36CE6B0098C9F8F1A /* FeatureSettings-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "FeatureSettings-Info.plist"; sourceTree = "<group>"; };
 		FC53B336F62FA261C98B6178 /* AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -318,10 +324,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E220642695C18DEC0DE50EB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6F10532AB0922927D945CAA0 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		3475E8067F54AD51A6280FD2 /* Derived */ = {
 			isa = PBXGroup;
 			children = (
 				4DD4451FDE006D07D69EF86F /* InfoPlists */,
+				4A508956CD194C55D2891B98 /* Sources */,
 			);
 			path = Derived;
 			sourceTree = "<group>";
@@ -329,9 +344,19 @@
 		3A1435BB49C179701B7AEA6E /* App */ = {
 			isa = PBXGroup;
 			children = (
+				0E220642695C18DEC0DE50EB /* Resources */,
 				7EC1B2D9420701C3F7D3ECAB /* Sources */,
 			);
 			path = App;
+			sourceTree = "<group>";
+		};
+		4A508956CD194C55D2891B98 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				5AA9DE8C96D7188069DCC2B5 /* TuistAssets+App.swift */,
+				836679F03BBEF5F00C1BE1CF /* TuistBundle+App.swift */,
+			);
+			path = Sources;
 			sourceTree = "<group>";
 		};
 		4DD4451FDE006D07D69EF86F /* InfoPlists */ = {
@@ -360,7 +385,7 @@
 		7EC1B2D9420701C3F7D3ECAB /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				EA0A199E2D864A2000CBCEF6 /* Coordinator */,
+				F448B61CB9FB4C02E139024B /* Coordinator */,
 				720C40E842342BE7A29C5B2F /* ViewControllers */,
 				5DC715AB3653736FA133197A /* AppDelegate.swift */,
 				DC72439BD109FAA5EC4FD66C /* SceneDelegate.swift */,
@@ -400,10 +425,10 @@
 			);
 			sourceTree = "<group>";
 		};
-		EA0A199E2D864A2000CBCEF6 /* Coordinator */ = {
+		F448B61CB9FB4C02E139024B /* Coordinator */ = {
 			isa = PBXGroup;
 			children = (
-				EA0A199F2D864A3300CBCEF6 /* Coordinator.swift */,
+				99D71E9E9DDC42E670A5C522 /* Coordinator.swift */,
 			);
 			path = Coordinator;
 			sourceTree = "<group>";
@@ -663,6 +688,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A827C2BBB2B86750B4F4397E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -687,10 +713,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA0A19A02D864A3300CBCEF6 /* Coordinator.swift in Sources */,
 				F228C2E51B5B9413F9B924E7 /* AppDelegate.swift in Sources */,
+				18D1C1C5859F4BAE55449275 /* Coordinator.swift in Sources */,
 				E29465C0350B7B059AC1EB28 /* SceneDelegate.swift in Sources */,
 				8D4B8DE12D8C176777F54BEF /* MainViewController.swift in Sources */,
+				CB7B04F32395026D03588D5F /* TuistAssets+App.swift in Sources */,
+				CF2C90333E236B3431DB46F9 /* TuistBundle+App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
